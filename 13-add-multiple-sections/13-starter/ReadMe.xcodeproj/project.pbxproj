@@ -18,6 +18,7 @@
 		0AEE30032506B62B003FCA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE30022506B62B003FCA10 /* Assets.xcassets */; };
 		0AEE30062506B62B003FCA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE30042506B62B003FCA10 /* LaunchScreen.storyboard */; };
 		0AF67B9F2506F17C0050FD04 /* NewBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF67B9E2506F17C0050FD04 /* NewBookViewController.swift */; };
+		EB09DB6A26E7BAFC00C590B4 /* LibraryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB09DB6926E7BAFC00C590B4 /* LibraryHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0AEE30052506B62B003FCA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEE30072506B62B003FCA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF67B9E2506F17C0050FD04 /* NewBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookViewController.swift; sourceTree = "<group>"; };
+		EB09DB6926E7BAFC00C590B4 /* LibraryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				0AEE30022506B62B003FCA10 /* Assets.xcassets */,
 				0AEE30042506B62B003FCA10 /* LaunchScreen.storyboard */,
 				0AEE30072506B62B003FCA10 /* Info.plist */,
+				EB09DB6926E7BAFC00C590B4 /* LibraryHeaderView.xib */,
 			);
 			path = ReadMe;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				0AEE30062506B62B003FCA10 /* LaunchScreen.storyboard in Resources */,
 				0AEE30032506B62B003FCA10 /* Assets.xcassets in Resources */,
 				0AEE30012506B62A003FCA10 /* Main.storyboard in Resources */,
+				EB09DB6A26E7BAFC00C590B4 /* LibraryHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

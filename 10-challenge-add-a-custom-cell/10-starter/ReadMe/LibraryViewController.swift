@@ -52,11 +52,26 @@ class LibraryViewController: UITableViewController {
   }
 
   // MARK:- Data Source
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
+
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    Library.books.count
+    switch section {
+    case 0:
+        return 1
+    case 1:
+       return Library.books.count
+    default:
+        fatalError()
+    }
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    if indexPath.section == 0 {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NewBookCell", for: indexPath)
+        return cell
+    }
     guard let cell = tableView.dequeueReusableCell(withIdentifier: "\(BookCell.self)", for: indexPath) as? BookCell
     else { fatalError("Could not create BookCell") }
     let book = Library.books[indexPath.row]
